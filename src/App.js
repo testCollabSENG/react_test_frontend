@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Show from "./Show";
-
+import ShowB from "./ShowB";
 class App extends Component {
   render() {
     return (
@@ -15,6 +15,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
           <Show/>
+          <ShowB/>
       </div>
     );
   }
